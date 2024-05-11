@@ -1,0 +1,103 @@
+.question-wrapper {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 380px;
+    position: relative;
+    top: 150px;
+    left: 250px;
+    width: 1200px;
+    .question-frag {
+        width: 1200px;
+        height: 330px;
+       
+            .question-title {
+                margin: auto;
+                width:600px;
+                font-size: 20pt;
+           }
+           .answer-flex {
+            display: flex;
+            justify-content: center;
+            
+
+           .question-answer {
+               position: relative;
+               top: 100px;
+               width:75px;
+               height: 50px;
+               border: 1px solid #1C69D4;
+               border-radius: 8px;
+               margin-right: 150px;
+               color: #1C69D4;
+               background-color: #FFFFFF;
+               
+           }
+           .question-answer:hover {
+                border: 2px solid #1C69D4;
+                cursor: pointer;
+                font-weight: bold;
+
+           }
+           .question-answer2 {
+            position: relative;
+            top: 100px;
+            width:75px;
+            height: 50px;
+            border: 0px solid #1C69D4;
+            border-radius: 8px;
+            margin-right: 150px;
+            color: #1C69D4;
+            background-color: #FFFFFF;
+            
+        }
+        .question-answer2:hover {
+             border: 2px solid #1C69D4;
+             cursor: pointer;
+             font-weight: bold;
+
+        }
+        .question-answer3 {
+            position: relative;
+            top: 100px;
+            width:75px;
+            height: 50px;
+            border: 1px solid #1C69D4;
+            border-radius: 8px;
+            margin-right: 150px;
+            color: #1C69D4;
+            background-color: #FFFFFF;
+            
+        }
+        .question-answer3:hover {
+             border: 2px solid #1C69D4;
+             cursor: pointer;
+             font-weight: bold;
+
+        }
+        .question-answer4 {
+            position: relative;
+            top: 100px;
+            width:75px;
+            height: 50px;
+            border: 1px solid #1C69D4;
+            border-radius: 8px;
+            margin-right: 150px;
+            color: #1C69D4;
+            background-color: #FFFFFF;
+            
+        }
+        .question-answer4:hover {
+             border: 2px solid #1C69D4;
+             cursor: pointer;
+             font-weight: bold;
+
+        }
+
+
+           
+
+        }
+        
+    }
+    
+}

@@ -1,0 +1,224 @@
+.price-body {
+    height: 105vh;
+    margin: 0;
+    padding: 0;
+    // background-image: url(../assets/price_back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+
+
+        .line-divide {
+            border-top: 2px solid black;
+            margin: auto;
+            width: 93%;
+            color: #666;
+
+        }
+        
+        .progress-bar {
+            position:relative;
+            left: 520px;
+            top: 40px;
+            height:54px;
+            width: 900px;
+            background-image: url(https://d1jvv63fd9y16z.cloudfront.net/feature/jinsuk/image/Price_bar.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            
+
+        }
+
+        .next-page {
+            position: relative;
+            bottom: 40px;
+            left: 1400px;
+            height: 5vh;
+            width: 125px;
+            opacity: 0.9;
+            color: black;
+            font-size: 20pt;
+            border: 2px solid black;
+            text-align: center;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        .next-page:hover {
+            transition: 400ms;
+            background-color: black;
+            color:white;
+        }
+        
+        .bmw-logo {
+            width:192px;
+            height:184px;
+            background-image: url(https://d1jvv63fd9y16z.cloudfront.net/feature/jinsuk/image/logo.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            position: absolute;
+            left: 45%;
+            top: 54%;
+            z-index: 0;
+        }
+        .wrapper{
+            height:95vh;
+            background-color: transparent;
+            width:80%;
+            margin: auto;
+            margin-top: 140px;
+            border-radius: 8px;
+            position: relative;
+            bottom: 2%;
+            
+    
+
+            .price-title {
+                font-weight: bold;
+                font-size: 26pt;
+                position: relative;
+                bottom: 60px;
+                left: 35%;
+                width:600px;
+
+            }
+            .price-description {
+                font-size: 14pt;
+                position: relative;
+                bottom: 100px;
+                left: 43%;
+                width:400px;
+            }
+
+            .black-box-left {
+                position: absolute;
+                top: 16%;
+                height: 475px; /* Adjust the height as needed */
+                width: 10px; /* Adjust the width as needed */
+                background-color: gray;
+                opacity: 0.3;
+                left: 9%;
+                // border-right: 3px dotted blue;
+              }
+              .black-box-right {
+                position: absolute;
+                top: 16%;
+                right: 14%;
+                height: 475px; /* Adjust the height as needed */
+                width: 10px; /* Adjust the width as needed */
+                background-color:gray;
+                opacity: 0.3;
+                // border-left: 3px dotted blue;
+              }
+            .price-chart-wrapper {
+                position: absolute;
+                left: 0;
+                z-index: 1;
+                
+            }
+}
+}
+
+@media (max-width: 760px) {
+    .price-body {
+        height: 105vh;
+        margin: 0;
+        padding: 0;
+        // background-image: url(../assets/price_back.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.7;
+    
+    
+            .line-divide {
+                border-top: 2px solid black;
+                margin: auto;
+                width: 93%;
+                color: #666;
+                display: none;
+    
+            }
+            
+            .progress-bar {
+                position:relative;
+                left: 30%;
+                top: 5%;
+                height:40px;
+                width: 200px;
+                background-image: url(https://d1jvv63fd9y16z.cloudfront.net/feature/jinsuk/image/Price_bar.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                
+    
+            }
+    
+            .next-page {
+                position: relative;
+                top: 67%;
+                left: 90%;
+                height: 4vh;
+                width: 20%;
+                opacity: 0.9;
+                color: black;
+                font-size: 8pt;
+                border: 2px solid black;
+                text-align: center;
+                cursor: pointer;
+                background-color: transparent;
+            }
+            .next-page:hover {
+                transition: 400ms;
+                background-color: black;
+                color:white;
+            }
+            .wrapper{
+                height:95vh;
+                background-color: white;
+                width:80%;
+                margin: auto;
+                margin-top: 140px;
+                border-radius: 8px;
+        
+    
+                .price-title {
+                    font-weight: bold;
+                    font-size: 12pt;
+                    position: relative;
+                    left: 17%;
+                    width:fit-content;
+    
+                }
+                .price-description {
+                    font-size: 8pt;
+                    position: relative;
+                    bottom:10%;
+                    left: 28%;
+                    width:fit-content;
+                }
+    
+                .bmw-logo {
+                    width:192px;
+                    height:184px;
+                    background-image: url(https://d1jvv63fd9y16z.cloudfront.net/feature/jinsuk/image/logo.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    position: absolute;
+                    top: 500px;
+                    left: 870px;
+                }
+                .price-chart-wrapper {
+                    position: absolute;
+                    left: 0;
+                    
+                }
+    }
+    }
+    
+}
