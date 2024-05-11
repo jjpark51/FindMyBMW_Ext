@@ -92,8 +92,7 @@ There are a total of 4 fetch URLs that must be editted in order for the frontend
    
 ```
 
-There is no change needed in the backend code.
-If you followed the dependencies correctly, "FindMyBMW" should be fully functional :)
+NOTE: Removed vehicle information data. Data is not provided.
 
 ## Example
 
