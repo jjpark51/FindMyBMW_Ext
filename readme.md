@@ -20,7 +20,7 @@ Slides: https://docs.google.com/presentation/d/1-hYpgo-pytc_sFC-tg3R9Yfoq5CWJVt3
 
 ## Deployment
 
-Site URL: https://findmybmw.nsckrsb.aws.bmw.cloud/
+Site URL: https://findmybmw.nsckrsb.aws.bmw.cloud/ (Recommendation results may not appear due to site deployment testing)
 
 * Our frontend code is written using the React framework while the backend utilizes the Flask framework. 
 * An automated CI/CD pipeline is implemented using Github Actions
@@ -32,12 +32,12 @@ Site URL: https://findmybmw.nsckrsb.aws.bmw.cloud/
 
 1. Clone Repository
 ```shell script
-$ git clone https://atc-github.azure.cloud.bmw/nsckrit/nsckr-findmybmw-kr.git
+$ git clone git@github.com:jjpark51/FindMyBMW_Ext.git
 ```
 
 2. Install Frontend Dependencies (Make sure Nodejs is installed prior)
 ```shell script
-$ cd nsckr-findmybmw-kr
+$ cd FindMyBMW_Ext
 $ cd frontend
 $ npm install
 $ npm start
@@ -45,7 +45,7 @@ $ npm start
 
 3. Install Backend Dependencies (Powershell / Make sure Python is installed)
 ```shell script
-$ cd nsckr-findmybmw-kr
+$ cd FindMyBMW_Ext
 $ cd backend
 $ python -m venv venv
 $ cd venv
