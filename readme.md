@@ -1,7 +1,6 @@
 # Toy Project - 2023 하반기
 [![프로젝트 기획안](/img/project.png)](https://bmwgroupkor.sharepoint.com/:p:/t/Toyproject/EdcI8suchI5FsWRbPx-1EKYBaRkrNO-572FMPj8_sEh7fg?e=6YSZ3J)
 
-
 # FindMyBMW 
 
 FindMyBMW is a toy project initiated by the 2023-2 IT interns of BMW Group Korea (feat. 2023-2 Marketing Intern Lee Jiyeon & 2023-2 Homologation Intern Park Hanyi) and is aimed at recommending BMW models to potential customers baased on their taste & lifestyle.
@@ -114,6 +113,10 @@ NOTE: Removed vehicle information data. Data is not provided.
 | Version  |       Key features                  | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
 |  v.1.0.0 | Fully functional FindMyBMW Prototype | Chrome browser/Microsoft Edge |
+
+
+### Demo
+https://drive.google.com/file/d/1SfRiChAS3KfxPi4Df6hSs9KMMplitC2w/view?usp=sharing
 
 
 ## Works
